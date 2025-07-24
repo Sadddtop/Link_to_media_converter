@@ -27,6 +27,6 @@ pip3 install customtkinter yt_dlp Pillow pywinstyles
 
 ## Использование
 
-После установки всех зависимостей `requirements.txt` открывайте **main.py** и всё заработает ✅ 
+После установки всех зависимостей `requirements.txt` запускайте **main.py** и всё заработает ✅ 
 
 Также вы можете использовать лишь один **.exe**-файл `Executable/Converter.exe` для работы приложения
