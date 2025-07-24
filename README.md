@@ -16,11 +16,11 @@ git clone https://github.com/Sadddtop/Link_to_media_converter.git
 ```
 ## Зависимости
 
-# PIP
+### PIP
 ```bash
 pip install customtkinter yt_dlp Pillow pywinstyles
 ```
-# PIP3
+### PIP3
 ```bash
 pip3 install customtkinter yt_dlp Pillow pywinstyles
 ```
