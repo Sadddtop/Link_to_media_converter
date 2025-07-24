@@ -81,7 +81,7 @@ ctk.set_window_scaling(2)
 
 
 window = ctk.CTk()
-window.title("Converter that just doesn't suck???")
+window.title("Converter")
 # window.iconbitmap(r"C:\Users\User\Downloads\canvas_copy-removebg-preview.ico")
 window.resizable(False, False)
 
