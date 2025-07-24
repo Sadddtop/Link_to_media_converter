@@ -1,0 +1,4 @@
+customtkinter
+pywinstyles
+Pillow
+yt_dlp
