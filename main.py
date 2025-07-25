@@ -6,10 +6,6 @@ from interface2.prefixes import *
 from PIL import Image
 import os
 # import ctypes | no usage cause of solved problem
-import shutil
-import requests
-import zipfile
-import io
 
 
 
