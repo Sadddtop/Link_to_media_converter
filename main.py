@@ -26,21 +26,21 @@ def keypress_handler(event): # The issue with pasting not working has been solve
         elif event.keycode == 88:     # X
             event.widget.event_generate('<<Cut>>')
             return "break"
+'''
+def is_russian_layout():
+    user32 = ctypes.WinDLL('user32')
+    hwnd = user32.GetForegroundWindow()
+    thread_id = user32.GetWindowThreadProcessId(hwnd, 0)
+    lang_id = user32.GetKeyboardLayout(thread_id) & (2**16 - 1)
+    return lang_id == 0x419
 
-# def is_russian_layout():
-#     user32 = ctypes.WinDLL('user32')
-#     hwnd = user32.GetForegroundWindow()
-#     thread_id = user32.GetWindowThreadProcessId(hwnd, 0)
-#     lang_id = user32.GetKeyboardLayout(thread_id) & (2**16 - 1)
-#     return lang_id == 0x419
-#
-# def update_layout_warning():
-#     if is_russian_layout():
-#         lbl_lng_warn.configure(text='!!! CTRL+V с раскладкой на русском языке не работает !!!')
-#     else:
-#         lbl_lng_warn.configure(text='')
-#     window.after(100, update_layout_warning)
-
+def update_layout_warning():
+    if is_russian_layout():
+        lbl_lng_warn.configure(text='!!! CTRL+V с раскладкой на русском языке не работает !!!')
+    else:
+        lbl_lng_warn.configure(text='')
+    window.after(100, update_layout_warning)
+'''
 # FIXED WITH keypress_handler
 
 
@@ -154,10 +154,10 @@ btn_convert.grid(row=1, column=1, padx=10, pady=10)
 
 
 
-
-# lbl_lng_warn = ctk.CTkLabel(frame_bottom, text='')
-# lbl_lng_warn.grid(row=1, column=2, padx=10, pady=10, columnspan=2)
-
+'''
+lbl_lng_warn = ctk.CTkLabel(frame_bottom, text='')
+lbl_lng_warn.grid(row=1, column=2, padx=10, pady=10, columnspan=2)
+'''
 # FIXED WITH keypress_handler
 
 
