@@ -16,6 +16,10 @@ git clone https://github.com/Sadddtop/Link_to_media_converter.git
 ```
 ## Зависимости
 
+### FFMPEG
+
+*Он отдельно добавлен в проект, скачивать не нужно*
+
 ### PIP
 ```bash
 pip install customtkinter yt_dlp Pillow pywinstyles
